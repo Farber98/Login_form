@@ -49,14 +49,14 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.formulario .from-group {
+.formulario .form-group {
     width: 100%;
     margin-bottom: 10px;
 }
 
 .formulario input[type="text"],
-.formulario input [type="password"] {
-    padding: 15px;
+.formulario input[type="password"] {
+    padding: 13.4px;
     font-family: 'Raleway' , sans-serif;
     font-size: 18px;
     line-height: 18px;
@@ -98,6 +98,15 @@ a:hover {
 
 .formulario .password_btn {
     width: calc(100% - 105px);
+}
+
+.formulario .hidden-submit {
+    border: 0 none;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 .formulario .error ul {
