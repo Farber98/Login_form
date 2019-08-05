@@ -31,6 +31,15 @@
             </div>
 
             <div class="hidden-submit"><input type="submit" tabindex="-1"/></div> <!-- Para poder enviar con el enter. -->
+            
+            <?php if(!empty($errores)): ?>     <!-- Insertamos codigo php para mostrar nuestros errores. -->
+                <div class="error">            <!-- Si la var $errores no esta vacia, entonces hay un error. -->
+                    <ul>
+                        <?php echo $errores; ?> <!-- Mostramos el error. -->
+                    </ul>
+                </div>
+
+            <?php endif; ?>
         </form>
 
         <p class="texto-registrate">
